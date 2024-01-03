@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code.Smells", "Code.Smells\Code.Smells.csproj", "{0EAF6631-AA88-4959-9315-89A5A314D0B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{A7BE40EF-449B-4F87-8B7D-8BFFB1A38CD7}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\sonarqube.yml = ..\.github\workflows\sonarqube.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EAF6631-AA88-4959-9315-89A5A314D0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EAF6631-AA88-4959-9315-89A5A314D0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EAF6631-AA88-4959-9315-89A5A314D0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EAF6631-AA88-4959-9315-89A5A314D0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1D74A33-3B45-44AE-9148-957411A9AE0D}
+	EndGlobalSection
+EndGlobal
